@@ -26,6 +26,22 @@ export interface Project {
         github: "https://github.com/andrewbeshay25/Data-Analysis-and-Prediction-App",
       },
       {
+        id: "cost-of-living-dashboard",
+        title: "Cost of Living Insights Dashboard",
+        description:
+          "An interactive dashboard that visualizes how household income and rent trends have evolved across major U.S. cities, revealing emerging affordability challenges.",
+        tech: [
+          "React", "D3.js", "Tailwind CSS", "Mermaid.js",
+          "Python", "Pandas", "NumPy", "PostCSS"
+        ],
+        isNew: true,
+        screenshots: [
+          "/assets/cost-of-living1.png",
+          "/assets/cost-of-living2.png"
+        ],
+        github: "https://github.com/andrewbeshay25/cost-of-living-trends"
+      },
+      {
       id: "ios-church-app",
       title: "Church iOS App",
       description:
@@ -48,7 +64,11 @@ export interface Project {
       description:
         "A REST API game where users leave comments about each other, with advanced filters and Docker deployment.",
       tech: ["FastAPI", "Docker", "CI/CD", "PostgreSQL", "AWS"],
-      link: "#",
+      screenshots: [
+        "/assets/Commentate1.png",
+        "/assets/Commentate2.png"
+      ],
+      link: "https://web.njit.edu/~aab49/Commentate/",
       github: "https://github.com/andrewbeshay25/commentate",
     },
       
