@@ -33,7 +33,7 @@ export default function HeroSection() {
       </p>
 
       <p className="mt-6 max-w-xl text-base sm:text-lg">
-        I build empowering digital tools for churches, classrooms, and communities. From mobile apps to full-stack platforms, my mission is to serve through code.
+        I build empowering digital tools for classrooms and communities. From mobile apps to full-stack platforms, my mission is to serve through code.
       </p>
 
       <div className="mt-8 flex flex-col sm:flex-row gap-4">

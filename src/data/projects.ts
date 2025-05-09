@@ -42,11 +42,28 @@ export interface Project {
         github: "https://github.com/andrewbeshay25/cost-of-living-trends"
       },
       {
+        id: "commentate",
+        title: "Commentate",
+        description:
+          "A REST API game where users leave comments about each other, with advanced filters and Docker deployment.",
+        tech: ["FastAPI", "Docker", "CI/CD", "PostgreSQL", "AWS"],
+        screenshots: [
+          "/assets/Commentate1.png",
+          "/assets/Commentate2.png"
+        ],
+        link: "https://web.njit.edu/~aab49/Commentate/",
+        github: "https://github.com/andrewbeshay25/commentate",
+      },
+      {
       id: "ios-church-app",
       title: "Church iOS App",
       description:
         "A Firebase-powered iOS app for real-time communication and role-based access within the church community.",
       tech: ["SwiftUI", "Firebase", "MVVM", "Rive", "Notifications"],
+      screenshots: [
+        "/assets/church-app1.png",
+        "/assets/church-app2.png"
+      ],
       github: "https://github.com/andrewbeshay25/TheApp",
     },
     {
@@ -55,21 +72,7 @@ export interface Project {
       description:
         "A full-stack platform for managing Coptic Sunday school classes and competitions, built with FastAPI and React.",
       tech: ["React", "FastAPI", "PostgreSQL", "Google OAuth", "JWT"],
-      link: "#",
       github: "https://github.com/andrewbeshay25/ark",
-    },
-    {
-      id: "commentate",
-      title: "Commentate",
-      description:
-        "A REST API game where users leave comments about each other, with advanced filters and Docker deployment.",
-      tech: ["FastAPI", "Docker", "CI/CD", "PostgreSQL", "AWS"],
-      screenshots: [
-        "/assets/Commentate1.png",
-        "/assets/Commentate2.png"
-      ],
-      link: "https://web.njit.edu/~aab49/Commentate/",
-      github: "https://github.com/andrewbeshay25/commentate",
     },
       
   ];
