@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Your custom styles here */
 body {
-  @apply bg-white text-gray-900;
-  font-family: 'Inter', sans-serif;
+  background-color: theme('colors.background');
+  color: theme('colors.text');
 }
