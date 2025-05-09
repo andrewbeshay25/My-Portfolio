@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
@@ -10,10 +11,13 @@ export default function Header() {
       }}
     >
       <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold" style={{ color: "var(--color-accent)" }}>
-          Andrew Beshay
-        </Link>
-        <div className="flex space-x-6">
+      <Link
+          href="/"
+          className="text-xl font-bold px-3 py-1 rounded-full border border-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)] hover:text-[color:var(--color-background)] transition duration-300"
+          style={{ color: "var(--color-accent)" }}>
+          AB
+      </Link>
+        <div className="flex space-x-6 items-center">
           <Link href="/about" className="hover:underline">
             About
           </Link>
@@ -23,6 +27,7 @@ export default function Header() {
           <Link href="/contact" className="hover:underline">
             Contact
           </Link>
+          <ThemeToggle />
         </div>
       </nav>
     </header>

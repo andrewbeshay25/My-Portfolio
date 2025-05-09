@@ -7,14 +7,24 @@
   --color-text: #111827;         /* Gray 900 */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-primary: #f3f4f6;
-    --color-accent: #3db39e;      /* lighter pine green */
-    --color-background: #0f172a;
-    --color-text: #e5e7eb;
-  }
+.dark {
+  --color-primary: #f3f4f6;
+  --color-accent: #3db39e;
+  --color-background: #0f172a;
+  --color-text: #e5e7eb;
 }
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+* {
+  transition: background-color 1s ease, color 1s ease;
+}
+
 
 
 /* Utility Fallbacks */

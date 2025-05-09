@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function HeroSection() {
   const [typedText, setTypedText] = useState("");
-  const fullText = "Full-Stack Developer • Church App Leader • Mission-Driven Builder";
+  const fullText = "Full-Stack Developer • Development Team Leader • Mission-Driven Builder";
 
   useEffect(() => {
     let i = 0;
