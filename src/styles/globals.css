@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1f2937;      /* Slate 800 */
+  --color-accent: #0f645d;       /* Pine green */
+  --color-background: #f3f4f6;   /* Gray 100 */
+  --color-text: #111827;         /* Gray 900 */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-primary: #f3f4f6;
+    --color-accent: #3db39e;      /* lighter pine green */
+    --color-background: #0f172a;
+    --color-text: #e5e7eb;
+  }
+}
+
+
+/* Utility Fallbacks */
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    color: var(--color-accent);
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+}
