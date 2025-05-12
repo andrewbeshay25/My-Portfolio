@@ -39,6 +39,7 @@ export interface Project {
           "/assets/cost-of-living1.png",
           "/assets/cost-of-living2.png"
         ],
+        link: "https://cost-of-living-trends-r1jcgpurb-andrews-projects-f295faf9.vercel.app/",
         github: "https://github.com/andrewbeshay25/cost-of-living-trends"
       },
       {
